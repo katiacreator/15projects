@@ -224,6 +224,7 @@ Modal
   visibility: visible;
   z-index: 10;
 }
+
 .modal-container {
   background: var(--clr-white);
   border-radius: var(--radius);
