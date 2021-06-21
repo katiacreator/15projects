@@ -8,7 +8,7 @@
 const modalBtn = document.querySelector('.modal-btn')
 const modalOverlay = document.querySelector('.modal-overlay')
 const closeBtn = document.querySelector('.close-btn')
-const modalContainer = document.querySelector('.modal-container')
+
 //console.log(modalBtn);
 //console.log(modalOverlay);
 //console.log(closeBtn);
@@ -17,8 +17,10 @@ const modalContainer = document.querySelector('.modal-container')
 modalBtn.addEventListener('click', function (){
     //console.log("clicked");
     modalOverlay.classList.add('open-modal');
+    
 })
 
 closeBtn.addEventListener('click', function(){
     modalOverlay.classList.remove('open-modal')
+    
 })
